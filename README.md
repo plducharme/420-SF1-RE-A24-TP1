@@ -113,7 +113,7 @@ Pour trouver tous les paramètres de calibration, vous devez:
 - déchiffrer chaque spécification
   - Vous devez extraire le premier chiffre à partir du début de la chaîne de caractères et le premier chiffre à partir de la fin de la chaîne de caractères.
     - Par exemple, si on a la liste de spécifications suivantes:
-> specifcations = [ "3dlamuze49", "danser5souqu3r", "r0ckmo1ca7", "m3tal666", "beat8beat"]
+> specifcations = [ "3dlamuze49", "danser5souqu3r", "r0ckmo1ca7", "m3tal666", "beat8beat"]  
 Les spécifications correspondantes seront: 39, 53, 07, 36, 88
 
 - calculer la moyenne des spécifications
