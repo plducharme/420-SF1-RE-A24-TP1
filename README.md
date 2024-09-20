@@ -4,7 +4,7 @@ Travail pratique 1 du cours 420-SF1-RE A24
 # Travail pratique 1
 
 # Sommaire
-Le travail pratique 1 est divisé en 4 parties. Chaque partie est un exercice à part entière et doit être complété dans un fichier séparé. Les parties sont les suivantes:
+Le travail pratique 1 est divisé en 4 parties. Chaque partie est un exercice à part entière et doit être complétée dans un fichier séparé. Les parties sont les suivantes:
 1. Validateur d'adresses courriel
 2. Mot à deviner
 3. Déchiffrer la combinaison
@@ -83,15 +83,17 @@ Voici ce qu’on affiche à l’utilisateur :*
 >Choisissez votre lettre : e
 >Choisissez la position : 0
 
-Pour l’utilisateur, il va saisir la lettre et la position où elle se trouve. Comme le mot fleur commence par un f à la position 0, l’utilisateur a commis donc une première erreur.
-Puis on continue à demander à l’utilisateur de deviner la lettre et la position de la lettre (je vous rappelle que la position 0 et première position du mot).
-Le jeu s’arrête quand l’utilisateur trouve tous les caractères du mot et on lui affiche dans ce cas **bravo : vous avez deviné le mot.** 
-Sinon, quand le joueur atteint le maximum d’erreurs et on lui dit bonne chance pour la prochaine fois.
+Pour l’utilisateur, il va saisir la lettre et la position où elle se trouve. Comme le mot fleur commence par un *f* à la position *0*, l’utilisateur a commis donc une première erreur.
+Puis, on continue à demander à l’utilisateur de deviner la lettre et la position de la lettre (je vous rappelle que la position 0 est la première position du mot).
+Le jeu s’arrête quand l’utilisateur trouve tous les caractères du mot et on lui affiche dans ce cas:  
+**bravo : vous avez deviné le mot.**   
+Sinon, quand le joueur atteint le maximum d’erreurs et on lui dit:  
+**Bonne chance pour la prochaine fois.**
 
-## Exercice 3 - Déchiffrer la/les combinaisons du coffre
+## Exercice 3 - Déchiffrer la/les combinaison(s) du coffre
 **Objectifs: manipulation de chaînes de caractères, structures conditionnelles, entrées et sorties, structures répétitives, utilisation de la bibliothèque math, utilisation des nombres**
 
-Un coffre est fermé sur un trésor. Puis on vous demande de trouver la ou les bonnes combinaisons pouvant ouvrir le coffre en respectant les conditions suivantes :
+Un coffre est fermé sur un trésor. On vous demande de trouver la ou les bonnes combinaisons pouvant ouvrir le coffre en respectant les conditions suivantes :
 - Je suis un nombre de 4 chiffres entre 1000 et 9999
 - Le premier chiffre est le double du deuxième
 - Le troisième chiffre est la moitié du premier
@@ -108,16 +110,19 @@ La machine à danser est une machine qui permet de générer de la musique pour 
 fournies dans une liste de spécifications. Cette liste est constituée de 5 chaînes de caractères contenant des chiffres et des lettres.
 
 Pour trouver tous les paramètres de calibration, vous devez:
-- déchiffrer la spécification
+- déchiffrer chaque spécification
   - Vous devez extraire le premier chiffre à partir du début de la chaîne de caractères et le premier chiffre à partir de la fin de la chaîne de caractères.
     - Par exemple, si on a la liste de spécifications suivantes:
 > specifcations = [ "3dlamuze49", "danser5souqu3r", "r0ckmo1ca7", "m3tal666", "beat8beat"]
-Les spécifications correspondantes seraient: 39, 53, 07, 36, 88
+Les spécifications correspondantes seront: 39, 53, 07, 36, 88
 
 - calculer la moyenne des spécifications
 - calculer l'écart type des spécifications
   - Petit rappel sur l'écart type: [Écart typer sur alloprof](https://alloprof.qc.ca/fr/eleves/bv/mathematiques/l-ecart-type-m1508)
 
+- Vous devez afficher les nombres des spécifications sur la première ligne en les séparant d'un espace
+- Vous devez afficher la moyenne sur la deuxième ligne
+- Vous devez afficher l'écart type sur la troisième ligne
 
 # Barême de correction
 - Chaque exercice compte pour 25% du TP
