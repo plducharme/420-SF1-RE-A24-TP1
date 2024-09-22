@@ -112,17 +112,16 @@ fournies dans une liste de spécifications. Cette liste est constituée de 5 cha
 Pour trouver tous les paramètres de calibration, vous devez:
 - déchiffrer chaque spécification
   - Vous devez extraire le premier chiffre à partir du début de la chaîne de caractères et le premier chiffre à partir de la fin de la chaîne de caractères.
+  - Vous devez afficher les nombres des spécifications (ceux extraits) sur la première ligne en les séparant d'un espace
     - Par exemple, si on a la liste de spécifications suivantes:
 > specifcations = [ "3dlamuze49", "danser5souqu3r", "r0ckmo1ca7", "m3tal666", "beat8beat"]  
-Les spécifications correspondantes seront: 39, 53, 07, 36, 88
+Les spécifications correspondantes seront: 39  53  07  36  88  
 
-- calculer la moyenne des spécifications
-- calculer l'écart type des spécifications
+- calculer et afficher la moyenne des spécifications
+- calculer et afficher l'écart type des spécifications
   - Petit rappel sur l'écart type: [Écart typer sur alloprof](https://alloprof.qc.ca/fr/eleves/bv/mathematiques/l-ecart-type-m1508)
 
-- Vous devez afficher les nombres des spécifications (ceux extraits) sur la première ligne en les séparant d'un espace
-- Vous devez afficher la moyenne sur la deuxième ligne
-- Vous devez afficher l'écart type sur la troisième ligne
+  
 
 # Barême de correction
 - Chaque exercice compte pour 25% du TP
