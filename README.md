@@ -120,7 +120,7 @@ Les spécifications correspondantes seront: 39, 53, 07, 36, 88
 - calculer l'écart type des spécifications
   - Petit rappel sur l'écart type: [Écart typer sur alloprof](https://alloprof.qc.ca/fr/eleves/bv/mathematiques/l-ecart-type-m1508)
 
-- Vous devez afficher les nombres des spécifications sur la première ligne en les séparant d'un espace
+- Vous devez afficher les nombres des spécifications (ceux extraits) sur la première ligne en les séparant d'un espace
 - Vous devez afficher la moyenne sur la deuxième ligne
 - Vous devez afficher l'écart type sur la troisième ligne
 
